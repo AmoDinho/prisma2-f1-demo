@@ -17,7 +17,6 @@
     "url": "https://github.com/pimp-my-book/serverless-graphql-nodejs-starter"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.0.0-beta.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-source-map-support": "^1.0.0",
@@ -32,6 +31,7 @@
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
+    "@prisma/cli": "^2.0.0-beta.3",
     "@prisma/client": "^2.0.0-beta.3",
     "apollo-server-lambda": "^2.5.0",
     "babel-runtime": "^6.26.0",

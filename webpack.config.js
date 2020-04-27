@@ -21,7 +21,7 @@ module.exports = {
   },
 
   plugins: [
-    new CopyWebpackPlugin(["./schema.prisma"]), // without this the prisma generate above will not work
+    new CopyWebpackPlugin(["./prisma/schema.prisma"]), // without this the prisma generate above will not work
   ],
   // Run babel on all .js files and skip those in node_modules
   module: {
