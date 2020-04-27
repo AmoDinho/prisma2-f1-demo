@@ -12,6 +12,10 @@ custom:
   webpack:
     webpackConfig: ./webpack.config.js
     includeModules: true
+    packagerOptions:
+      scripts: # this is the magic
+        - prisma generate
+
   serverless-offline:
     port: 4000
 
