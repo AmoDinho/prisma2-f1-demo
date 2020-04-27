@@ -4,10 +4,10 @@
   "description": "A GraphQL Node.js starter for the Serverless Framework with async/await and unit test support",
   "main": "handler.js",
   "scripts": {
+    "prisma:generate": "prisma generate",
     "offline": "sls offline",
     "deploy": "sls deploy",
     "prisma:introspect": "prisma introspect",
-    "prisma:generate": "prisma generate",
     "test": "jest"
   },
   "author": "",
