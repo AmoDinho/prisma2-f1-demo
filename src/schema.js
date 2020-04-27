@@ -9,6 +9,15 @@ type Query {
      hello: String!
 }
 
-`
 
-export {schema}
+type Team {
+     id: INT
+     name: String
+     base: String
+     team_principal: String
+     power_unit: String
+     world_championships: Int
+}
+`;
+
+export { schema };
