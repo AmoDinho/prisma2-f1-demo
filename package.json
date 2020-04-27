@@ -29,6 +29,7 @@
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
+    "@prisma/client": "^2.0.0-beta.3",
     "apollo-server-lambda": "^2.5.0",
     "babel-runtime": "^6.26.0",
     "graphql": "^14.3.0",
