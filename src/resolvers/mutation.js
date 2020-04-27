@@ -1,11 +1,6 @@
-/*
+import { PrimsaClient, PrismaClient } from "@prisma/client";
 
-ADD YOUR MUTATION HERE:
-
-export const addCars = async (args, context) => {
-    
-
-}
-
-
-*/
+const Primsa = new PrismaClient();
+export const createATeam = async (args, context) => {
+  return null;
+};
