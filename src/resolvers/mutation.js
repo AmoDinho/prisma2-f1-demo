@@ -1,5 +1,9 @@
 import { PrismaClient } from "@prisma/client";
+/*
+process.env.DATABASE_URL = env=== 'dev' ? dev_url : prod_url
 
+
+*/
 const Primsa = new PrismaClient();
 export const createATeam = async (args, context) => {
   const team = await Primsa.team.create({
