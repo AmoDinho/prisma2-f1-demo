@@ -20,6 +20,14 @@ provider:
   runtime: nodejs12.x
   stage: dev
   region: us-east-1
+  vpc:
+    securityGroupIds:
+      - sg-06d91384d018ecc06
+    subnetIds:
+      - subnet-07510a4f906a2d08e
+      - subnet-003df4b8ca8c73b77
+      - subnet-0a6f3e2a57aa0fec1
+      - subnet-0fd08d630da24e4c8
   # To load environment variables externally
   # rename env.example to env.yml and uncomment
   # the following line. Also, make sure to not
