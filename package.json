@@ -6,6 +6,8 @@
   "scripts": {
     "offline": "sls offline",
     "deploy": "sls deploy",
+    "prisma:introspect": "prisma introspect",
+    "prisma:generate": "prisma generate",
     "test": "jest"
   },
   "author": "",
