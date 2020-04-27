@@ -1,4 +1,4 @@
-import { PrimsaClient, PrismaClient } from "@prisma/client";
+import { PrimsaClient } from "@prisma/client";
 
 const Primsa = new PrismaClient();
 export const createATeam = async (args, context) => {
